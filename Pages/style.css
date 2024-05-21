@@ -1,0 +1,344 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: fonte;
+    src: url(../Fonts/IrishGrover-Regular.ttf);
+}
+
+@font-face {
+    font-family: fonte2;
+    src: url(../Fonts/IstokWeb-Bold.ttf);
+}
+
+@font-face {
+    font-family: fonte3;
+    src: url(../Fonts/RadioCanadaBig-Bold.ttf);
+}
+
+
+.centralizer{
+
+    display: flex;
+    flex-direction: row;
+    background-color: #1E1E1E;
+    color: #ffff;
+    justify-content: space-around;
+    font-family: fonte;
+    height: 5em;
+    width: 100%; 
+    align-items: center;
+    position: fixed;
+
+}
+
+.logo{
+    font-size: 23px;
+}
+
+.itens{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 23px;
+}
+
+.efeito:hover{
+    cursor: pointer;
+    color: #f7f200;
+}
+
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Images/teste.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;    
+}
+
+.back h1{
+    color: #f7f200;
+    font-size: 46px ;
+    font-family: fonte;
+    letter-spacing: 5px;
+    padding-bottom: 2em;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #092341;
+    text-align: center;
+    padding: 5em;
+
+}
+
+.sobre img{
+    height: 20em;
+    border-radius: 10em;
+    margin-right: 1em;
+}
+
+
+.txt{
+    color: #ffff;
+    font-family: fonte3;
+    width: 30em;
+    font-size: 1.2em;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.txt p{
+    padding: 1em;
+    line-height: 28px;
+    text-align: justify;
+}
+
+
+.alinhamento-bt{
+    display: flex;
+    justify-content: end;
+}
+
+.alinhamento-bt button{
+    color: #ffff;
+    border: none;
+    background-color: #0B37D5;
+    padding: 1em;
+    font-family: fonte2;
+    font-size: 1em;
+    width: 7em;
+    border-radius: 10px;
+
+}
+
+.alinhamento-bt button:hover{
+    cursor: pointer;
+    background-color: #2f53d4;
+    box-shadow: rgb(45, 44, 136) -5px 10px;
+    transition: ease-in-out 300ms;
+}
+
+
+
+.feitos{
+    display: flex;
+    flex-direction: column;
+    background-color: #837575;
+    align-items: center;
+    gap: 2em;
+    width: 100%;
+    padding-top: 3em;
+    padding-bottom: 3em;
+
+}
+
+.titulo{
+    font-family: fonte;
+    font-size: 2.5em;
+}
+
+.card1{
+    display: flex;
+    background-color: #D9D9D9; 
+    border-radius: 1em 0em;
+    width: 25em;
+    padding: 1em;
+
+}
+
+.card1:hover{
+    cursor: pointer;
+    box-shadow: rgb(63, 63, 63) -5px 10px;;
+}
+
+
+.lg-menor{
+    width: 4.3em;
+    height: auto;
+    background-color: rgb(231, 25, 25);
+    border-radius: 10em;
+    margin-right: 1em;
+}
+
+.conteudo{
+    font-family: fonte3;
+}
+
+.ferramenta{
+    color: #636363;
+    font-style: italic;
+}
+
+.ferramenta a{
+    text-decoration: none;
+    color: #0B37D5;
+
+}
+
+.ferramenta a:hover{
+    text-decoration: underline;
+}
+
+.saiba{
+    font-family: fonte2;
+    font-style: italic;
+    color: #cccccc;
+
+}
+
+.saiba a {
+
+    text-decoration: none;
+    color:#1E1E1E;    
+}
+
+.saiba a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 1.1em;   
+}
+
+
+.objetivos{
+    background-color: #092341;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+    padding: 5em;
+    gap: 3em;
+}
+
+.tech{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10em;
+    background-color: #000;
+    justify-content: space-around;
+    padding: 3em;
+
+}
+
+
+
+
+.obj{
+    font-family: fonte;
+    color: #ffff;
+    font-size: 2.5em;
+    padding-top: 1em;
+}
+
+.txt-obj{
+    width: 30em;
+    font-family: fonte3;
+    font-size: 1.2em;
+    color: #ffff;
+
+}
+
+
+.contato{
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+
+.ttl{
+    font-family: fonte;
+    color: #ffff;
+    font-size: 2.5em;
+    padding-top: 1em;
+    margin-left: 4em;
+}
+
+
+.cnt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10em;
+    padding: 2em;
+
+}
+
+.txt-cnt{
+    display: flex;
+    align-items: center;
+    font-family: fonte3;
+    color: #ffff;
+    width: 16em;
+    font-size: 1.3em;
+    margin-bottom: 2em;
+    
+}
+
+
+.formas{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 2em;
+}
+
+.formas img{
+    height: 2.2em;
+}
+
+.disp{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-items: center;
+    
+}
+
+.disp p{
+    font-family: fonte3;
+    color: #ffff;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.disp p:hover{
+    cursor: pointer;
+}
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 1.5em;
+    font-size: 1.2em;
+    
+    font-family: fonte;
+    color: #ffff;
+    background-color: #000;
+}
+
+
+
+
+
+
