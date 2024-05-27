@@ -398,3 +398,70 @@ body{
 }
 
 
+
+/* -----------------Responsividade--------------------------- */
+
+@media screen and (max-width: 904px){
+
+    .sobre{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .objetivos{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .txt-obj{
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width: 861px){
+
+    .back h1{
+        font-size: 38px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 753px){
+
+    .back h1{
+        font-size: 32px;
+    }
+
+
+}
+
+@media screen and (max-width: 660px){
+
+    .centralizer{
+        flex-direction: column;
+        
+    }
+
+
+    .back h1{
+        font-size: 28px;
+        width: 10.7em;
+    }
+
+
+}
+
+
+@media screen and (max-width: 615px){
+
+    .txt{
+        width: 20em;
+    }
+
+}
+
+
+
