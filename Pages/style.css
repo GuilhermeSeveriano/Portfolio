@@ -19,6 +19,13 @@
     src: url(../Fonts/RadioCanadaBig-Bold.ttf);
 }
 
+.body{
+    background-color: #000000;
+}
+
+html{
+    scroll-behavior: smooth;
+}
 
 .centralizer{
 
@@ -32,7 +39,7 @@
     width: 100%; 
     align-items: center;
     position: fixed;
-
+    z-index: 999;
 }
 
 .logo{
@@ -46,7 +53,14 @@
     font-size: 23px;
 }
 
-.efeito:hover{
+
+.efeito a{
+    cursor: pointer;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.efeito a:hover{
     cursor: pointer;
     color: #f7f200;
 }
@@ -79,7 +93,7 @@
     align-items: center;
     background-color: #092341;
     text-align: center;
-    padding: 5em;
+    padding: 7em;
 
 }
 
@@ -138,11 +152,11 @@
 .feitos{
     display: flex;
     flex-direction: column;
-    background-color: #837575;
+    background-color: #070707;
     align-items: center;
     gap: 2em;
     width: 100%;
-    padding-top: 3em;
+    padding-top: 5em;
     padding-bottom: 3em;
 
 }
@@ -150,6 +164,7 @@
 .titulo{
     font-family: fonte;
     font-size: 2.5em;
+    color: #fff;
 }
 
 .card1{
@@ -163,16 +178,20 @@
 
 .card1:hover{
     cursor: pointer;
-    box-shadow: rgb(63, 63, 63) -5px 10px;;
+    box-shadow: rgb(11, 55, 213) -5px 10px;;
 }
 
 
 .lg-menor{
     width: 4.3em;
     height: auto;
-    background-color: rgb(231, 25, 25);
+    
     border-radius: 10em;
     margin-right: 1em;
+}
+
+.lg-menor img{
+    width: 4em;
 }
 
 .conteudo{
@@ -204,7 +223,7 @@
 .saiba a {
 
     text-decoration: none;
-    color:#1E1E1E;    
+    color:#30558b;    
 }
 
 .saiba a:hover{
@@ -220,22 +239,40 @@
     flex-direction: row;
     justify-content: space-around;
     height: auto;
-    padding: 5em;
+    padding: 6em;
     gap: 3em;
 }
 
 .tech{
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 10em;
-    background-color: #000;
-    justify-content: space-around;
-    padding: 3em;
+ 
 
 }
 
+.tecnologies{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.imagem{
+    height: 5em;
+}
+
+.tecnologies :nth-child(2){
+    transition-delay: 200ms;
+}
+
+.tecnologies :nth-child(3){
+    transition-delay: 400ms;
+}
+
+.tecnologies :nth-child(4){
+    transition-delay: 600ms;
+}
 
 
 .obj{
@@ -321,8 +358,13 @@
 
 .disp p:hover{
     cursor: pointer;
+    text-decoration: underline;
 }
 
+.disp a{
+    color: #ffff;
+    text-decoration: none;
+}
 
 
 
@@ -337,8 +379,22 @@
     background-color: #000;
 }
 
+body{
+    background-color: #000000;
+}
 
+.hidden{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 2.5s;
+    transform: translateX(-100%);
+}
 
-
+.show{
+    opacity: 1;
+    filter: blur(0px);
+    transition: all 2.5;
+    transform: translateX(0);
+}
 
 
