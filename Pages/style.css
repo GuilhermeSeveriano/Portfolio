@@ -449,6 +449,7 @@ body{
     .back h1{
         font-size: 28px;
         width: 10.7em;
+        text-align: center;
     }
 
 
@@ -461,7 +462,59 @@ body{
         width: 20em;
     }
 
+    .itens{
+        font-size: 18px ;
+    }
+
+    .objetivos{
+        justify-content: center;
+    }
+
+    .txt-obj{
+        
+        width: 13em;
+        padding: 0;
+    }
+
+    .cnt{
+        flex-direction: column;    
+        gap: 0;    
+    }
+    .ttl{
+        font-size: 30px;
+    }
+
+    .txt-cnt{
+      margin-bottom: 0px;
+    }
+
+    .formas{
+        gap: 0;
+    }
+
+    .alinhamento-bt{
+        justify-content: center;
+    }
+
+    .card1{
+        width: 22em;
+
+    }
+
+
 }
+
+
+@media screen and (max-width: 500px){
+    .back h1{
+        width: 13em;
+        text-align: center;
+
+    }
+}
+
+
+
 
 
 
