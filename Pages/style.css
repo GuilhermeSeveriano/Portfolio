@@ -19,6 +19,11 @@
     src: url(../Fonts/RadioCanadaBig-Bold.ttf);
 }
 
+@font-face {
+    font-family: fonte4;
+    src: url(../Fonts/JosefinSans-VariableFont_wght.ttf);
+}
+
 .body{
     background-color: #000000;
 }
@@ -34,7 +39,7 @@ html{
     background-color: #1E1E1E;
     color: #ffff;
     justify-content: space-around;
-    font-family: fonte;
+    font-family: fonte4;
     height: 5em;
     width: 100%; 
     align-items: center;
@@ -106,7 +111,7 @@ html{
 
 .txt{
     color: #ffff;
-    font-family: fonte3;
+    font-family: fonte4;
     width: 30em;
     font-size: 1.2em;
     height: auto;
@@ -133,7 +138,7 @@ html{
     border: none;
     background-color: #0B37D5;
     padding: 1em;
-    font-family: fonte2;
+    font-family: fonte4;
     font-size: 1em;
     width: 7em;
     border-radius: 10px;
@@ -162,7 +167,7 @@ html{
 }
 
 .titulo{
-    font-family: fonte;
+    font-family: fonte4;
     font-size: 2.5em;
     color: #fff;
 }
@@ -214,7 +219,7 @@ html{
 }
 
 .saiba{
-    font-family: fonte2;
+    font-family: fonte4;
     font-style: italic;
     color: #cccccc;
 
@@ -276,7 +281,7 @@ html{
 
 
 .obj{
-    font-family: fonte;
+    font-family: fonte4;
     color: #ffff;
     font-size: 2.5em;
     padding-top: 1em;
@@ -284,7 +289,7 @@ html{
 
 .txt-obj{
     width: 30em;
-    font-family: fonte3;
+    font-family: fonte4;
     font-size: 1.2em;
     color: #ffff;
 
@@ -301,7 +306,7 @@ html{
 
 
 .ttl{
-    font-family: fonte;
+    font-family: fonte4;
     color: #ffff;
     font-size: 2.5em;
     padding-top: 1em;
@@ -321,7 +326,7 @@ html{
 .txt-cnt{
     display: flex;
     align-items: center;
-    font-family: fonte3;
+    font-family: fonte4;
     color: #ffff;
     width: 16em;
     font-size: 1.3em;
@@ -350,7 +355,7 @@ html{
 }
 
 .disp p{
-    font-family: fonte3;
+    font-family: fonte4;
     color: #ffff;
     font-size: 1.2em;
     font-style: italic;
@@ -374,7 +379,7 @@ html{
     padding: 1.5em;
     font-size: 1.2em;
     
-    font-family: fonte;
+    font-family: fonte4;
     color: #ffff;
     background-color: #000;
 }
