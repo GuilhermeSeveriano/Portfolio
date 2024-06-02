@@ -520,7 +520,10 @@ body{
     .back{
         background-image: url(../Images/teste2.jpg);
         background-position: right;
+        background-attachment: scroll;
     }
+
+
 }
 
 
